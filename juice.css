@@ -1,0 +1,126 @@
+body{
+background-image: url(img/bckgrnd.png);
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0%;
+}
+  
+.dropdown {
+display: inline-block;
+position: relative;
+margin-left: 2%;
+}
+  
+button{
+border:none;
+border-radius:5px;
+padding:15px 30px;
+font-size:18px;
+cursor:pointer;
+margin: 2%;
+
+}
+  
+button:hover{
+background-color:#0a0a0a;
+}
+  
+.dropdown-options {
+display: none;
+position: absolute;
+overflow: auto;
+background-color:#0f0f0f;
+z-index: 99999;
+border-radius:5px;
+box-shadow: 0px 10px 10px 0px rgb(0, 0, 0);
+}
+  
+.dropdown:hover .dropdown-options {
+display: block;
+width: 90%;
+}
+  
+.dropdown-options a {
+display: block;
+color: rgb(14, 13, 13);
+padding: 5px;
+text-decoration: none;
+padding:20px 40px;
+}
+  
+.dropdown-options a:hover {
+color: #000000;
+background-color: #000000;
+border-radius:5px;
+}
+  
+
+.ed {color: aliceblue;
+background-color: #000000;
+width: 80%;}
+
+.aon {
+width: 50%;
+} 
+
+.bon {
+width: 40%;
+}
+
+.con {
+width: 45%;
+}
+
+.don {
+width: 40%;
+}
+
+.eon {
+width: 45%;
+}
+
+.fon {
+ width: 53%;
+}
+
+
+.navbar {
+background-color: rgb(0, 0, 0);
+padding: 0px 10px;
+text-align: center;
+height: 120px;
+}
+    
+    
+.nav-link {font-size: 30px;
+font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+color: rgb(241, 141, 9);
+text-decoration: solid;
+}
+    
+.navbar-nav {margin: 0%;
+text-align: center;}
+    
+    
+.navbar-nav li {display: inline;
+padding: 25px;
+text-align: center;}
+    
+.logo {
+height: 130px;
+width: 130px;
+text-align: center;
+display:inline;
+    
+}
+    
+.cd {display: inline-block;
+height: 100px;
+vertical-align: middle;
+padding-bottom: 50px;}
+
+.ln {
+color: #000000;
+font-size: 40px;
+}
